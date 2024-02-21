@@ -20,5 +20,5 @@ function showNameFacts() {
     const nameValue = calculateNameValue(name);
     const spiritAnimal = getAnimal(nameValue);
     const resultDiv = document.getElementById('result');
-    resultDiv.innerHTML = `Your name value is ${nameValue} and your spirit animal is ${spiritAnimal}.`;
+    resultDiv.innerHTML = `The last half of your name is ${nameValue} and your spirit animal is ${spiritAnimal}.`;
 }
